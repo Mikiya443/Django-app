@@ -1,0 +1,1 @@
+Migrations are intentionally generated on first deployment with `python manage.py makemigrations core` if needed, then `migrate`.

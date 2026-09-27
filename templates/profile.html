@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="auth"><h1>Profile</h1><form method="post">{% csrf_token %}<input name="email" value="{{user.email}}" placeholder="Email"><input name="phone" value="{{user.profile.phone}}" placeholder="Phone"><input value="{{user.profile.referral_code}}" readonly><button class="btn">Save</button></form></div>{% endblock %}
